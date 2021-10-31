@@ -3,6 +3,9 @@ import Home from '../views/Home.vue'
 import Register from "../views/Register"
 import About from "../views/About"
 import Login from "../views/Login";
+import CreateArticle from "../views/CreateArticle";
+import Settings from "../views/Settings";
+import UserProfile from "../views/UserProfile";
 
 const routes = [
     {
@@ -24,6 +27,21 @@ const routes = [
         path: '/login',
         name: 'login',
         component: Login
+    },
+    {
+        path: '/createArticle',
+        name: 'createArticle',
+        component: CreateArticle
+    },
+    {
+        path: '/settings',
+        name: 'settings',
+        component: Settings
+    },
+    {
+        path: '/userProfile',
+        name: 'userProfile',
+        component: UserProfile
     },
 
 ]
